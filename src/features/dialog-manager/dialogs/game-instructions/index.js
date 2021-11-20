@@ -10,7 +10,7 @@ import showFirstStoryMessage from '../../actions/show-first-story-message';
 import ArrowKeys from './assets/arrow-keys.png';
 import DoubleTap from './assets/double-tap.png';
 import Enter     from './assets/enter.png';
-import Space     from './assets/space.png';
+import Space     from './assets/space2.png';
 import Swipe     from './assets/swipe.png';
 import WASDKeys  from './assets/wasd-keys.png';
 
