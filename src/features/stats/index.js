@@ -84,8 +84,8 @@ class Stats extends Component {
               <div className='flex-column'>
 
                 <div className={`flex-row ${sideMenu ? '' : 'stats__row--spacing'}`}>
-                  <span className='stats__text--spacing'>
-                    {'LEVEL: '}
+                  <span className='stats__text--spacing lbh'>
+                    {'Lbh: '}
                   </span>
                   <span className='stats__text--level'>
                     { level }
@@ -111,7 +111,7 @@ class Stats extends Component {
 
                 <div className={`flex-row ${sideMenu ? '' : 'stats__row--spacing'}`}>
                   <span className='stats__text--spacing'>
-                    {'ATK: '}
+                    {'ionsaí: '}
                   </span>
                   <span className='stats__text--damage'>
                     { damage }
@@ -120,7 +120,7 @@ class Stats extends Component {
 
                 <div className='flex-row'>
                   <span className='stats__text--spacing'>
-                    {'DEF: '}
+                    {'cosaint: '}
                   </span>
                   <span className='stats__text--defence'>
                     { defence }
@@ -151,7 +151,7 @@ class Stats extends Component {
 
                 <div className='flex-row'>
                   <span className='stats__text--spacing'>
-                    {'GOLD: '}
+                    {'ÓR: '}
                   </span>
                   <span className='stats__text--gold'>
                     { gold }

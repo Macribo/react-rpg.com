@@ -32,14 +32,14 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
     <Dialog onKeyPress={handleContinue}>
 
       <div className='game-instructions__title'>
-        {'Treoireacha Imartha'}
+        {'Treoireacha'}
       </div>
 
       <div className='game-instructions__text'>
         {
           !mobileVersion &&
             <span style={{paddingBottom: 12}}>
-              {`MOVEMENT`}
+              {`GLUAISEACHT`}
             </span>
         }
 
