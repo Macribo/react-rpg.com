@@ -29,7 +29,7 @@ const App = ({ appState, world }) => {
   // show the user a dialog to download the app
   useEffect(() => {
     if(!nativeApp && !optOutDownload) {
-      setShowDownloadPopup(true);
+      // setShowDownloadPopup(true);
     }
   }, []);
 
