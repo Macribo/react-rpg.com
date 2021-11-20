@@ -32,7 +32,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
     <Dialog onKeyPress={handleContinue}>
 
       <div className='game-instructions__title'>
-        {'Game Controls'}
+        {'Treoireacha Imartha'}
       </div>
 
       <div className='game-instructions__text'>
@@ -50,7 +50,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
                 <img src={Swipe}
                   alt='swipe' />
                 <div className='game-instructions__native-text'>
-                  {'SWIPE and HOLD to MOVE'}
+                  {'SCUAB agus BRÚ chun GLUAISEACHT'}
                 </div>
               </>
               :
@@ -64,7 +64,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
         {
           !mobileVersion &&
             <span style={{paddingTop: 12}}>
-              {`ATTACK`}
+              {`IONSAIGH`}
             </span>
         }
 
@@ -75,7 +75,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
                 <img src={DoubleTap}
                   alt='double-tap' />
                 <div className='game-instructions__native-text'>
-                  {'DOUBLE TAP to ATTACK'}
+                  {'CNIOG DÚBAILTE chun IONSAIGH'}
                 </div>
               </>
               :
@@ -91,7 +91,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
       <div className='flex-column game-instructions__button'>
         <Button
           onClick={handleContinue}
-          title={'Continue'} />
+          title={'Ar aghaidh'} />
       </div>
 
     </Dialog>
