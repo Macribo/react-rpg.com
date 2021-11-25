@@ -23,7 +23,7 @@ const StatsItem = ({ stats }) => {
     }
   }
 
-  if(name === 'damage') name = 'attack';
+  if(name === 'damage') name = 'ionsaí';
 
   return(
     <div className='flex-row stats-item__container'>

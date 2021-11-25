@@ -1,7 +1,7 @@
 import SteelHelmImg from './steel-helm.png';
 
 const SteelHelm = {
-  name: 'Steel Helm',
+  name: 'clogad iarainn',
   type: 'armor::helmet',
   defence: 10,
   image: SteelHelmImg,

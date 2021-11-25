@@ -1,7 +1,7 @@
 import LeatherArmorImg from './leather-armor.png';
 
 const LeatherArmor = {
-  name: 'Leather Armor',
+  name: 'cathéide leathair',
   type: 'armor::body',
   defence: 5,
   image: LeatherArmorImg,

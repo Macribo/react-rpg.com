@@ -1,7 +1,7 @@
 import SteelSwordImg from './steel-sword.png';
 
 const SteelSword = {
-  name: 'Steel Sword',
+  name: 'claiomh cruiche',
   type: 'weapon',
   range: 'melee',
   damage: 4,

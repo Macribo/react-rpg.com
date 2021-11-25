@@ -9,24 +9,23 @@ import startMainGame from '../../../world/actions/start-main-game';
 import './styles.scss';
 
 const MainGameStart = ({ startMainGame, backToSelect }) => {
+  let flavorText = ['Lorem ipsum']
   return(
     <Dialog
       goBack={backToSelect}
       onKeyPress={startMainGame}>
 
       <span className='flex-row game-start__title'>
-        {'Story Mode'}
-      </span>
+        {flavorText[0]}     </span>
 
       <span className='flex-column game-start__text'>
-        {'Explore the dark dungeon, full of monsters and gear!'}
+        {'lorem ipsum'}
       </span>
 
       <div className='flex-column game-start__button'>
         <Button
           onClick={startMainGame}
-          icon='compass'
-          title={'Explore Dungeon'} />
+          title={'Ar Aghaidh'} />
       </div>
 
     </Dialog>

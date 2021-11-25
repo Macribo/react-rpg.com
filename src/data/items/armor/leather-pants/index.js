@@ -1,7 +1,7 @@
 import LeatherPantsImg from './leather-pants.png';
 
 const LeatherPants = {
-  name: 'Leather Pants',
+  name: 'brístí compordach',
   type: 'armor::pants',
   defence: 4,
   image: LeatherPantsImg,

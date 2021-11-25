@@ -1,7 +1,7 @@
 import OldRingImg from './old-ring.png';
 
 const OldRing = {
-  name: 'Old Ring',
+  name: 'fáinne aosta',
   type: 'ring',
   effect: {
     damage: 1,

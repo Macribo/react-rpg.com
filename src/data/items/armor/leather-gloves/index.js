@@ -1,7 +1,7 @@
 import LeatherGlovesImg from './leather-gloves.png';
 
 const LeatherGloves = {
-  name: 'Leather Gloves',
+  name: 'lámhainní leathair',
   type: 'armor::gloves',
   defence: 2,
   image: LeatherGlovesImg,

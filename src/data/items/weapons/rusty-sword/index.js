@@ -1,7 +1,7 @@
 import RustySwordImg from './rusty-sword.png';
 
 const RustySword = {
-  name: 'Rusty Sword',
+  name: 'claíomh meirgeach',
   type: 'weapon',
   range: 'melee',
   damage: 1,

@@ -60,7 +60,7 @@ class Inventory extends Component {
               iconStyle={open ?
                 {fontSize: 22} : {fontSize: sideMenu ? 20 : 23}}
               title={open ?
-                'Close' : 'Inventory'}
+                'Close' : 'Trealamh'}
               style={{
                 width: open ? 135 : 195,
                 transition: 'width .25s ease-out',

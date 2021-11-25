@@ -20,14 +20,13 @@ const EndlessGameStart = ({ backToSelect, startEndlessGame }) => {
       </span>
 
       <span className='flex-column endless-start__text'>
-        {'Up for a challenge..? These randomly generated dungeons will run you into oblivion.'}
+        {'Dunsún ríomhghinte'}
       </span>
 
       <div className='flex-column endless-start__button'>
         <Button
           onClick={startEndlessGame}
-          icon='compass'
-          title={'Explore Dungeon'} />
+          title={'Scéal'} />
       </div>
     </Dialog>
   );

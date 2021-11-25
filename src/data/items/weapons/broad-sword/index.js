@@ -1,7 +1,7 @@
 import BroadSwordImg from './broad-sword.png';
 
 const BroadSword = {
-  name: 'Broad Sword',
+  name: 'claíomh leathan',
   type: 'weapon',
   range: 'melee',
   damage: 10,

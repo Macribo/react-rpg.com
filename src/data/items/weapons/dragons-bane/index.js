@@ -1,7 +1,7 @@
 import DragonsBaneImg from './dragons-bane.png';
 
 const DragonsBane = {
-  name: 'Dragons Bane',
+  name: 'crá dragain',
   type: 'weapon',
   range: 'melee',
   damage: 14,

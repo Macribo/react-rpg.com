@@ -1,7 +1,7 @@
 import SteelPantsImg from './steel-pants.png';
 
 const SteelPants = {
-  name: 'Steel Pants',
+  name: 'brístí iarainn',
   type: 'armor::pants',
   defence: 12,
   image: SteelPantsImg,

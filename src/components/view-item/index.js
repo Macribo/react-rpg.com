@@ -39,12 +39,12 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
       break;
 
     case 'potion':
-      itemStats.push(<StatsItem stats={{ name: 'heal', value: Math.ceil((data.hp / stats.maxHp) * 100) }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'leigheas', value: Math.ceil((data.hp / stats.maxHp) * 100) }} key={uuidv4()} />);
       break;
 
-    case 'weapon':
+    case 'uirlis':
       itemIsEquipped = (JSON.stringify(equipped.weapon) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'damage', value: data.damage }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'damáiste', value: data.damage }} key={uuidv4()} />);
       // if there's a bonus
       if(data.bonus) {
         const [bonusType] = data.bonus.split('::');
@@ -63,27 +63,27 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
 
     case 'armor::helmet':
       itemIsEquipped = (equipped.armor && JSON.stringify(equipped.armor.helmet) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'defence', value: data.defence }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'cosaint', value: data.defence }} key={uuidv4()} />);
       break;
 
     case 'armor::body':
       itemIsEquipped = (equipped.armor && JSON.stringify(equipped.armor.body) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'defence', value: data.defence }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'cosaint', value: data.defence }} key={uuidv4()} />);
       break;
 
     case 'armor::gloves':
       itemIsEquipped = (equipped.armor && JSON.stringify(equipped.armor.gloves) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'defence', value: data.defence }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'cosaint', value: data.defence }} key={uuidv4()} />);
       break;
 
     case 'armor::boots':
       itemIsEquipped = (equipped.armor && JSON.stringify(equipped.armor.boots) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'defence', value: data.defence }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'cosaint', value: data.defence }} key={uuidv4()} />);
       break;
 
     case 'armor::pants':
       itemIsEquipped = (equipped.armor && JSON.stringify(equipped.armor.pants) === JSON.stringify(data));
-      itemStats.push(<StatsItem stats={{ name: 'defence', value: data.defence }} key={uuidv4()} />);
+      itemStats.push(<StatsItem stats={{ name: 'cosaint', value: data.defence }} key={uuidv4()} />);
       break;
 
     default:
@@ -110,21 +110,21 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
         onClose();
       }}
       icon='archive'
-      title={'Un-equip'} />
+      title={'Dí-fheistigh'} />
   );
   else ViewItemButtons = (
     <>
       <Button
         onClick={() => setConfirmDrop(true)}
         icon='trash'
-        title={'Drop'} />
+        title={'Lig uait'} />
 
       {
         data.type === 'potion' ?
           <Button
             onClick={() => setConfirmPotion(true)}
             icon='medkit'
-            title={'Heal'} />
+            title={'leigheas'} />
           :
           <Button
             onClick={() => {
@@ -132,7 +132,7 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
               onClose();
             }}
             icon='hand-paper'
-            title={'Equip'} />
+            title={'feistigh'} />
       }
     </>
   );

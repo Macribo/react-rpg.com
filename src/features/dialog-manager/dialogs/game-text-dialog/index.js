@@ -25,7 +25,7 @@ const GameTextDialog = ({ text1, text2, closeDialog }) => {
         <div className='game-text-dialog__button'>
           <Button
             onClick={closeDialog}
-            title='Continue' />
+            title='Ar Aghaidh' />
         </div>
       </div>
 

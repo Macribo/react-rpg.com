@@ -1,7 +1,7 @@
 import DiamondRingImg from './diamond-ring.png';
 
 const DiamondRing = {
-  name: 'Diamond Ring',
+  name: 'fáinne diamaint',
   type: 'ring',
   effect: {
     damage: 3,

@@ -11,3 +11,131 @@
 
   padding-left: 2px;
 }
+
+
+
+.directional-pad-hist {
+  padding-top: 0%;
+  position: fixed;
+  width: 150px;
+  height: 150px;
+  transform: scale(0.8);
+  left: 31%;
+/* border:4px solid orange; */
+/* background-image: url('../../img/About1/mouse-icons/cursor-icon-free-53.png'); */
+background-repeat: no-repeat;
+background-size: contain;
+  z-index: 9000;
+  opacity: 0.6;
+
+}
+
+.grid-item {
+  border: 3px solid rgba(100, 0, 0, 0.8) !important;
+  font-size: 30px;
+  text-align: center;
+  border: 0px;
+  padding: 0px;
+  margin: 0px !important;
+}
+
+
+#north {
+  
+  background-color: rgb(83, 60, 90);
+  border-top: 3px solid rgba(170, 176, 177, 0.5);
+  
+  border-right: 3px solid rgba(170, 176, 177, 0.5);
+  border-left: 3px solid rgba(170, 176, 177, 0.5);
+  border-bottom: 0px solid rgba(83, 60, 90, 1);
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 50;
+  opacity:0.5 ;
+}
+
+
+#south {
+  opacity:0.5;
+
+  background-color: rgb(83, 60, 90);
+  border-top: 0px solid rgba(83, 60, 90, 1);
+  border-right: 3px solid rgba(170, 176, 177, 0.5);
+  border-left: 3px solid rgba(170, 176, 177, 0.5);
+  border-bottom: 3px solid rgba(170, 176, 177, 0.5);
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 40;
+}
+
+#origin {
+  background-image: url('./middle.png');
+  outline: solid 1px rgba(83, 60, 90,1);
+  border: solid 3px rgba(83, 60, 90,1);
+  background-size: contain;
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 45;
+}
+
+#east {
+  
+  background-color: rgb(83, 60, 90);
+  border-top: 3px solid rgba(170, 176, 177, 0.5);
+  border-bottom: 3px solid rgba(170, 176, 177, 0.5);
+  
+  border-right: 3px solid rgba(170, 176, 177, 0.5);
+  border-left: 0px solid rgba(83, 60, 90, 1);
+  
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 50;
+  right: -2px;
+  opacity:0.5;
+}
+
+
+
+#west {
+  border: 5px solid blueviolet;
+  background-color: blueviolet;
+  opacity:0.5;
+
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 50;
+
+  background-color: rgb(83, 60, 90);
+  border-top: 3px solid rgba(170, 176, 177, 0.5);
+
+  border-right: 0px solid rgba(83, 60, 90, 1);
+  border-left: 3px solid rgba(170, 176, 177, 0.5);
+  border-bottom: 3px solid rgba(170, 176, 177, 0.5);
+  right: 0px;
+
+}
+
+#west {
+  border: 5px solid blueviolet;
+  background-color: blueviolet;
+  opacity:0.5;
+
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 50;
+
+  background-color: rgb(83, 60, 90);
+  border-top: 3px solid rgba(170, 176, 177, 0.5);
+
+  border-right: 0px solid rgba(83, 60, 90, 1);
+  border-left: 3px solid rgba(170, 176, 177, 0.5);
+  border-bottom: 3px solid rgba(170, 176, 177, 0.5);
+  right: 0px;
+
+}
