@@ -1,7 +1,7 @@
 import HpPotionImg from './hp-potion.png';
 
 const HpPotion = {
-  name: 'HP Potion',
+  name: 'deoch leighis',
   type: 'potion',
   hp: 15,
   image: HpPotionImg,

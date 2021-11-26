@@ -1,7 +1,7 @@
 import LichBaneImg from './lich-bane.png';
 
 const LichBane = {
-  name: 'Lich Bane',
+  name: 'crá na Marbhdhraoithe',
   type: 'weapon',
   range: 'melee',
   damage: 25,

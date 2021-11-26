@@ -1,7 +1,7 @@
 import SteelGlovesImg from './steel-gloves.png';
 
 const SteelGloves = {
-  name: 'Steel Gloves',
+  name: 'lámhainn iarainn',
   type: 'armor::gloves',
   defence: 6,
   image: SteelGlovesImg,

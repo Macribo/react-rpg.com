@@ -1,7 +1,7 @@
 import SteelBootsImg from './steel-boots.png';
 
 const SteelBoots = {
-  name: 'buataisí chruacha',
+  name: 'buataisí iarainn',
   type: 'armor::boots',
   defence: 6,
   image: SteelBootsImg,

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { connect }                    from 'react-redux';
 import Sound                          from 'react-sound';
 
-import AmbientMusic     from './ambient-music.mp3';
+import AmbientMusic     from './ambient-music .mp3';
 import setGameSound     from '../actions/set-game-sound';
 import gameSoundEnabled from '../actions/game-sound-enabled';
 
@@ -82,6 +82,31 @@ const GameMusic = ({ sideMenu, gameSoundEnabled, setGameSound }) => {
   }
 
   return (
+    <><button className='game-music__button white-border'
+      onClick={toggleMusic}
+      style={{ marginTop: sideMenu ? 0 : 10 }}>
+
+      <div className='game-music__diagonal-line--1'
+        style={{
+          width: gameMusic ? 0 : 57,
+          top: gameMusic ? 0 : 18,
+          left: gameMusic ? 0 : -7
+        }}>
+      </div>
+      <div className='game-music__diagonal-line--2'
+        style={{
+          width: gameMusic ? 0 : 57,
+          top: gameMusic ? 0 : 18,
+          right: gameMusic ? 0 : -7
+        }}>
+      </div>
+
+      <i className={`fa fa-${gameMusic ? 'volume-up' : 'volume-off'} game-music__icon`} />
+
+      { gameMusic }
+
+    </button>
+  
     <button className='game-music__button white-border'
       onClick={toggleMusic}
       style={{ marginTop: sideMenu ? 0 : 10 }}>
@@ -106,6 +131,8 @@ const GameMusic = ({ sideMenu, gameSoundEnabled, setGameSound }) => {
       { gameMusic }
 
     </button>
+  </>
+
   );
 };
 

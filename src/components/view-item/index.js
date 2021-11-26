@@ -117,14 +117,14 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
       <Button
         onClick={() => setConfirmDrop(true)}
         icon='trash'
-        title={'Lig uait'} />
+        title={'chait uaim é'} />
 
       {
         data.type === 'potion' ?
           <Button
             onClick={() => setConfirmPotion(true)}
             icon='medkit'
-            title={'leigheas'} />
+            title={'ól'} />
           :
           <Button
             onClick={() => {
@@ -166,10 +166,10 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
 
       <ConfirmDialog
         open={confirmDrop}
-        text={'Are you sure!? This item will be gone forever...'}
-        cancelText={'Keep'}
+        text={'An bhfuil tú cinnte!? Ní beidh fáil agat arís ar...'}
+        cancelText={'coimeád é'}
         cancelIcon={'archive'}
-        acceptText={'Drop'}
+        acceptText={'chaith uaim é'}
         acceptIcon={'trash'}
         confirm={() => {
           dropItem(data);
@@ -180,9 +180,9 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
 
       <ConfirmDialog
         open={confirmSell}
-        text={`Are you sure you want to sell your ${data.name} for ${Math.ceil(data.value / 2)} gold ?`}
-        cancelText={'Cancel'}
-        acceptText={'Sell'}
+        text={`An míann leat ${data.name} a dhíoll i gcomhair ${Math.ceil(data.value / 2)}?`}
+        cancelText={'Ní míann liom'}
+        acceptText={'Is mhíann liom'}
         acceptIcon={'coins'}
         confirm={() => {
           sellItem(data);
@@ -193,9 +193,9 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
 
       <ConfirmDialog
         open={confirmBuy}
-        text={`Are you sure you want to buy ${data.name} for ${data.value} gold ?`}
-        cancelText={'Cancel'}
-        acceptText={'Buy'}
+        text={`An míann leat ${data.name} a cheannacht ar ${data.value} ?`}
+        cancelText={'ní míann liom'}
+        acceptText={'is míann liom'}
         acceptIcon={'coins'}
         confirm={() => {
           buyItem(data);
@@ -206,9 +206,9 @@ const ViewItem = ({ sell, buy, onClose, data, stats, unequipItem, buyItem,
 
       <ConfirmDialog
         open={confirmPotion}
-        text={`Are you sure you want to use your ${data.name}?`}
-        cancelText={'Cancel'}
-        acceptText={'Heal'}
+        text={`An míann leat do ${data.name} a usáid anois?`}
+        cancelText={'Ní anois'}
+        acceptText={'Is mían liom'}
         acceptIcon={'medkit'}
         confirm={() => {
           consumePotion(data);

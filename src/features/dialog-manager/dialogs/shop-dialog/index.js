@@ -28,14 +28,14 @@ const ShopDialog = ({ closeDialog }) => {
         <div className='flex-column space-between flex-1'>
 
           <span className='shop-dialog__title'>
-            {'Shop'}
+            {'Siopa'}
           </span>
 
           <div className='flex-row'>
             <ShopKeep />
 
             <span className='flex-column shop-dialog__text'>
-              {'Welcome traveler! Please, come in...'}
+              {'Failte taiscéalaí! Tar isteach, más é do thoil é...'}
             </span>
           </div>
 
@@ -44,13 +44,13 @@ const ShopDialog = ({ closeDialog }) => {
               small
               onClick={closeDialog}
               icon='walking'
-              title={'Leave'} />
+              title={'Fág'} />
 
             <Button
               small
               onClick={() => setWelcome(false)}
               icon='angle-double-right'
-              title={'Shop'} />
+              title={'Siopa'} />
           </div>
 
         </div>

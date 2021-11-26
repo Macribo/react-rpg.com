@@ -1,7 +1,7 @@
 import SteelArmorImg from './steel-armor.png';
 
 const SteelArmor = {
-  name: 'Steel Armor',
+  name: 'cathéide iarainn',
   type: 'armor::body',
   defence: 14,
   image: SteelArmorImg,

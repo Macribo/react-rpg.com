@@ -1,7 +1,7 @@
 import BackpackUpgradeImg from './backpack-upgrade.png';
 
 const BackpackUpgrade = {
-  name: 'uasghrádú mála droma',
+  name: 'mála mór',
   type: 'upgrade::backpack',
   slots: 4,
   image: BackpackUpgradeImg,

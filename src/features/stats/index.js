@@ -111,7 +111,7 @@ class Stats extends Component {
 
                 <div className={`flex-row ${sideMenu ? '' : 'stats__row--spacing'}`}>
                   <span className='stats__text--spacing'>
-                    {'ions: '}
+                    {'ionsaí: '}
                   </span>
                   <span className='stats__text--damage'>
                     { damage }
@@ -120,13 +120,22 @@ class Stats extends Component {
 
                 <div className='flex-row'>
                   <span className='stats__text--spacing'>
-                    {'cosa: '}
+                    {'cosaint: '}
                   </span>
                   <span className='stats__text--defence'>
                     { defence }
                   </span>
                 </div>
 
+
+                <div className='flex-row'>
+                  <span className='stats__text--spacing'>
+                    {'Airgead: '}
+                  </span>
+                  <span className='stats__text--gold'>
+                    { gold }
+                  </span>
+                </div>
               </div>
 
               <div className={`flex-column ${columnStyle}`}>
@@ -137,7 +146,7 @@ class Stats extends Component {
 
                     <span className='stats-hp-bar__container'>
                       <span className='flex-row stats-bar__text'>
-                        {'fuinnimh'}
+                        {'sláinte'}
                         {/* HP Hit Points: PM Pointí Maistreacht?
                         Chnag Phointí?
                          */}
@@ -152,14 +161,6 @@ class Stats extends Component {
                   </div>
                 </div>
 
-                <div className='flex-row'>
-                  <span className='stats__text--spacing'>
-                    {'ÓR: '}
-                  </span>
-                  <span className='stats__text--gold'>
-                    { gold }
-                  </span>
-                </div>
 
               </div>
             </>

@@ -4,7 +4,7 @@ import ReactTimeout         from 'react-timeout';
 import Sound                from 'react-sound';
 
 import MonsterAttack from '../monsters/assets/monster-attack.wav';
-import MonsterDeath  from '../monsters/assets/monster-death.wav';
+import MonsterDeath  from '../monsters/assets/music3.wav';
 import MonsterSlash  from '../monsters/assets/monster-slash.png';
 import PlayerDeath   from './assets/player-death.mp3';
 import SwordSlash    from './assets/sword-slash.png';

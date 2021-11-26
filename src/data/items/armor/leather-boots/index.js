@@ -1,7 +1,7 @@
 import LeatherBootsImg from './leather-boots.png';
 
 const LeatherBoots = {
-  name: 'Leather Boots',
+  name: 'buataisí leathair',
   type: 'armor::boots',
   defence: 2,
   image: LeatherBootsImg,

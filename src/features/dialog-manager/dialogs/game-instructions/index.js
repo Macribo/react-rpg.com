@@ -39,7 +39,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
         {
           !mobileVersion &&
             <span style={{paddingBottom: 12}}>
-              {`GLUAISEACHT`}
+              {`GLUAISEACHTA`}
             </span>
         }
 
@@ -64,7 +64,7 @@ const GameInstructions = ({ loadStartingItems, showFirstStoryMessage }) => {
         {
           !mobileVersion &&
             <span style={{paddingTop: 12}}>
-              {`IONSAIGH`}
+              {`IONSAITHE`}
             </span>
         }
 

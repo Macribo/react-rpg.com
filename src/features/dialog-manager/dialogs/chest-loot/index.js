@@ -29,18 +29,18 @@ const ChestLoot = ({ dialog, pickupItem, openChest, closeChestDialog }) => {
       onKeyPress={handleContinue}>
 
       <span className='chest-loot__title'>
-        {'Chest Loot!'}
+        {'Creach!'}
       </span>
 
       <div className='flex-column chest-loot__contents'>
 
         <div className='flex-row chest-loot__value--spacing'>
-          <span>{'Gold: '}</span>
+          <span>{'Airgead: '}</span>
           <span>{ gold }</span>
         </div>
 
         <div className='flex-row chest-loot__value--spacing'>
-          <span>{'Exp: '}</span>
+          <span>{'eolas: '}</span>
           <span>{ exp }</span>
         </div>
 
@@ -62,7 +62,7 @@ const ChestLoot = ({ dialog, pickupItem, openChest, closeChestDialog }) => {
       <div className='flex-column chest-loot__buttons'>
         <Button
           onClick={handleContinue}
-          title={item ? 'Pick Up' : 'Continue'}
+          title={item ? 'pioc suas' : 'ar aghaidh'}
           icon={item ? 'hand-paper' : 'check' } />
       </div>
 
